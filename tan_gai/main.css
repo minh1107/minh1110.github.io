@@ -1,0 +1,190 @@
+body {
+    font-family: 'Dancing Script', sans-serif;
+    background-size: cover;
+}
+
+* {
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+
+h3,h1 {
+    text-align: center;
+    color: rgb(39, 37, 37);
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+.box__button p,
+.box__title p:last-child
+{
+    font-size: 30px;
+    padding: 4px 8px;
+    width: fit-content  ;
+    border: 1px solid rgb(207, 74, 74);
+    border-radius: 8px;
+    color: white;
+    margin-top: 120px;
+}
+
+.box__button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__no {
+    position: absolute;
+    right: 15%;
+    transition: 0.1s ease;
+}
+
+.box__button p:first-child {
+    background-color: rgb(184, 25, 25);
+    position: fixed;
+    top: 35%;
+    left: 15%;
+}
+
+.box__button p:last-child {
+    background-color: rgb(28, 127, 219);
+}
+
+.box__button p:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.box__title {
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    background: linear-gradient(to bottom, rgb(27, 26, 26), rgb(16, 16, 212));
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+    box-shadow: 10px 10px 12px black;
+    margin-top: 20px;
+}
+
+.title__img {
+    width: 70%;
+    height: 50%;
+    margin: 12px auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px rgb(41, 14, 14);
+    
+}
+
+.box {
+    position: relative;
+    background: url('./Tổng-hợp-các-hình-nền-Anime-về-tình-yêu-buồn-cô-đơn-2.jpg');
+    height: 625px;
+    background-size: cover;
+    background-blend-mode: difference;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.box__title h1 {
+    color: wheat;
+    margin-bottom: 0;
+}
+
+.box__title p:last-child {
+    background-color: aqua;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: auto;
+    padding: 4px 18px;
+}
+
+.box__title p:last-child:hover {
+    background-color: rgba(0, 255, 255, 0.404);
+}
+
+.box__content,
+.box__button {
+    display: none;
+}
+
+
+.box__content > h1 > i{
+    color: rgb(255, 115, 0);
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.box__finish {
+    width: 900px;
+    height: fit-content;
+    background: linear-gradient(to bottom, #02193f, #071c44);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px teal;
+    display: none;
+}
+
+.box__finish h3 {
+    margin-top: 24px;
+}
+
+button {
+    margin: 12px auto;
+    padding: 12px 24px;
+    border: none;
+    background: linear-gradient(to right, rgb(194, 20, 20), rgb(155, 29, 50));
+    border-radius: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(194, 20, 20, 0.568), rgba(155, 29, 50, 0.589));
+    transition: 0.5s ease;
+}
+
+input {
+    margin: auto;
+    width: 600px;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    outline: none;
+    height: 50px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+}
+
+input:focus {
+    border: 3px solid #e01559;
+}
+
+
+.box__finish > h3 {
+    margin-bottom: 12px;
+}
+
+.button__yes {
+
+}
